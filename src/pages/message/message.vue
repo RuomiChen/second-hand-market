@@ -27,7 +27,7 @@ onLoad(() => {
 </script>
 
 <template>
-  <view class="bg-white px-4 pt-2" :style="{ marginTop: `${safeAreaInsets?.top}px` }">
-    <wd-button>主要按钮123</wd-button>
+  <view class="h-screen bg-white px-4 pt-2 flex justify-center items-center" :style="{ marginTop: `${safeAreaInsets?.top}px` }">
+    <view>123</view>
   </view>
 </template>
